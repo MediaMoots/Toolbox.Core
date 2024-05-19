@@ -32,9 +32,9 @@
     <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="IONET">
-      <HintPath>lib\IONET.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\IONET\IONET\IONET.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="OpenTK">
       <HintPath>..\Track Studio\Lib\OpenTK.dll</HintPath>
       <CopyLocal>False</CopyLocal>
